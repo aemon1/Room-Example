@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout>
+    <data>
+        <variable
+            name="multi_lang"
+            type="com.example.sectionrv.dataBindingClasses.MultiLang" />
+    </data>
+
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/constraint"
+    tools:context=".multipleLanguage.MultipleLanguageActivity">
+
+    <TextView
+        android:id="@+id/empName_lang"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:text="@{multi_lang.name}"
+        android:textColor="@color/black"
+        app:layout_constraintStart_toStartOf="@+id/emdid_lang"
+        app:layout_constraintTop_toBottomOf="@+id/emdid_lang" />
+
+    <TextView
+        android:id="@+id/project_lang"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:text="@{multi_lang.project}"
+        android:textColor="@color/black"
+        app:layout_constraintStart_toStartOf="@+id/empName_lang"
+        app:layout_constraintTop_toBottomOf="@+id/empName_lang" />
+
+    <TextView
+        android:id="@+id/exp_lang"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:text="@{multi_lang.experience}"
+        android:textColor="@color/black"
+        app:layout_constraintStart_toStartOf="@+id/language_lang"
+        app:layout_constraintTop_toBottomOf="@+id/language_lang" />
+
+    <TextView
+        android:id="@+id/emdid_lang"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="32dp"
+        android:text="@{multi_lang.empId}"
+        android:textColor="@color/black"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/language_lang"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:text="@{multi_lang.language}"
+        android:textColor="@color/black"
+        app:layout_constraintStart_toStartOf="@+id/project_lang"
+        app:layout_constraintTop_toBottomOf="@+id/project_lang" />
+
+    <Switch
+        android:id="@+id/switch_lang"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/exp_lang" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+</layout>

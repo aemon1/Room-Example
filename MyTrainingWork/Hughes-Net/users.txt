@@ -1,0 +1,14 @@
+HMX user
+HMX38201591uat3 / direcpc1
+
+US users
+
+DSS35820565 / direcpc1 (Has VO)
+SME00144984uat3/direcpc1
+smbtest/123456aQ!
+sme00121193 password: direcpc1
+SME00069851 password: direcpc1
+DSS200001301uat3 direcpc1
+
+fusion/HT2100L user
+GUE0002865/123456aQ!

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">سیکشن آر وی</string>
+    <string name="employeeID">ملازم کی شناخت: 123</string>
+    <string name="name">نام: ایمن</string>
+    <string name="project">پروجیکٹ: ہیوز نیٹ</string>
+    <string name="languages">زبانیں: جاوا ، کوٹلن ، سی</string>
+    <string name="experience">تجربہ: 5 سال</string>
+</resources>

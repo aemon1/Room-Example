@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Section RV</string>
+    <string name="employeeID">EmployeeID: 123</string>
+    <string name="name">Name: Aemon</string>
+    <string name="project">Project: HughesNet</string>
+    <string name="languages">Language : Java, Kotlin, C</string>
+    <string name="experience">Experience : 5 years</string>
+</resources>
